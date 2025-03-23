@@ -1,4 +1,4 @@
-package com.telusko.ecom_proj.service;
+package com.webApp.ecom_proj.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -6,8 +6,8 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.util.List;
-import com.telusko.ecom_proj.model.Product;
-import com.telusko.ecom_proj.repo.ProductRepo;
+import com.webApp.ecom_proj.model.Product;
+import com.webApp.ecom_proj.repo.ProductRepo;
 
 @Service
 public class ProductService {

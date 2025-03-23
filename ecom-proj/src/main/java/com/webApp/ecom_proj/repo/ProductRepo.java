@@ -1,4 +1,4 @@
-package com.telusko.ecom_proj.repo;
+package com.webApp.ecom_proj.repo;
 
 import java.util.List;
 
@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.telusko.ecom_proj.model.Product;
+import com.webApp.ecom_proj.model.Product;
 
 @Repository
 public interface ProductRepo extends JpaRepository<Product,Integer>{
